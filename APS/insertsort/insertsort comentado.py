@@ -32,6 +32,7 @@ def insertion_sort(arr):
         #j será uma cópia do indice i, vai ser importante na linha 41
         j = i
         while j > 0 and elemento < arr[j - 1]:
+            #esses print é para ficar mais facil na hora de ver no terminal qual são os valores importantes naquele looping especifico
             print(arr[j - 1],elemento,i,j)
             print(arr)
             #O elemento sendo menor que o valor anterior dele, o valor anterior será empurrado para trás. ex: [1,0] ==> [1,1]
